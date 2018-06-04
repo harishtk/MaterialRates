@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Material Rates</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="str_material">Materials</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_show_profiles">ShowProfilesActivity</string>
+    <string name="title_activity_add_plumbing">AddPlumbingActivity</string>
+
+    <string-array name="array_tablenames">
+        <item>Plumbing</item>
+        <item>Fittings</item>
+        <item>Electricals</item>
+    </string-array>
+</resources>

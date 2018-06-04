@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:id="@+id/spinner_select_category_find_rates"
+        android:layout_width="173dp"
+        android:layout_height="52dp"
+        android:entries="@array/array_tablenames"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="16dp"></Spinner>
+
+    <Spinner
+        android:id="@+id/spinner_select_type_find_rates"
+        android:layout_width="172dp"
+        android:layout_height="45dp"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="85dp"></Spinner>
+
+    <Spinner
+        android:id="@+id/spinner_select_dimen_find_rates"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        tools:layout_editor_absoluteX="198dp"
+        tools:layout_editor_absoluteY="147dp"></Spinner>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_find_find_rates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FIND"
+        android:textAppearance="@style/TextAppearance.AppCompat.Notification.Title.Media"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <TextView
+        android:id="@+id/txt_category_find_rates"
+        android:layout_width="165dp"
+        android:layout_height="50dp"
+        android:text="CATEGORY :"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textSize="25sp"
+        android:layout_gravity="end"
+        android:textAlignment="viewEnd"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/txt_dimen_find_rates"
+        android:layout_width="165dp"
+        android:layout_height="50dp"
+        android:textSize="25sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:text="Dimension :"
+        android:layout_gravity="end"
+        android:textAlignment="viewEnd"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <TextView
+        android:id="@+id/txt_type_find_rates"
+        android:layout_width="165dp"
+        android:layout_height="50dp"
+        android:text="TYPE :"
+        android:textSize="25sp"
+        android:layout_gravity="end"
+        android:textAlignment="viewEnd"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+</android.support.constraint.ConstraintLayout>
